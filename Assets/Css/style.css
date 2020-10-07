@@ -1,8 +1,12 @@
 *{
   margin: auto;
   box-sizing: border-box;
+  padding: 1px;
 }
-
+hr{
+  color: lightgray;
+  padding: 0;
+}
 body{
   background-image: url("https://ssl.gstatic.com/ui/v1/icons/mail/themes/desk/bg2_1920x1200.jpg");
   width: 80%;
@@ -12,11 +16,23 @@ body{
 header,  nav, footer{
   color: white;
 }
-
-#titolo{
-  display: inline;
+nav, main{
+  padding-bottom: 5px;
+  padding-top: 5px;
+  border-bottom: 2px solid lightgray;
 }
-
+#titolo{
+  display: inline-block;
+  vertical-align: top;
+  padding-top: 10px
+}
+p{padding: 10px;}
+#count{
+  background-color: orange;
+  border-radius: 50%;
+  padding: 5px;
+  font-size: 20px;
+}
 .msg_row {
   border: 1px solid black;
 }
@@ -24,7 +40,17 @@ header,  nav, footer{
 .white{
   background-color: white;
 }
-
+.mail_body{
+  color: gray;
+}
 .gray{
   background-color: lightgray;
+}
+
+footer>strong{
+  font-size: 30px;
+}
+footer>span{font-style: italic;}
+footer{
+  text-align: center;
 }
