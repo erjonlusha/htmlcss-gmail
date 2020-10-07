@@ -5,4 +5,26 @@
 
 body{
   background-image: url("https://ssl.gstatic.com/ui/v1/icons/mail/themes/desk/bg2_1920x1200.jpg");
+  width: 80%;
+  margin-top: 20px;
+}
+
+header,  nav, footer{
+  color: white;
+}
+
+#titolo{
+  display: inline;
+}
+
+.msg_row {
+  border: 1px solid black;
+}
+
+.white{
+  background-color: white;
+}
+
+.gray{
+  background-color: lightgray;
 }
